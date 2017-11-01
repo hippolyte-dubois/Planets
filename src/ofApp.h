@@ -31,6 +31,7 @@ public:
     
 private:
     bool gotOnset, gotBeat;
+    ofSoundStream mic;
     ofxAubioOnset onset;
     ofxAubioPitch pitch;
     ofxAubioBeat beat;
@@ -40,9 +41,9 @@ private:
     double t;
     ofNode node_global, node_sphere, node_inner_circle;
     int circle_res;
-    float onsetThreshold = 0.3;
+    float onsetThreshold = 0.5;
     
-    float r_inc;
+    float r_onset, r_beat;
     
     void addVertices(ofPolyline &c, float dT, float dI, float r, float amp, int i);
 };
