@@ -2,7 +2,7 @@
 Realtime 3D scene.
 Examples [here](https://giphy.com/channel/kptndubois)
 
-![For example:](http://gph.is/2z4Vf1y)
+![For example:](https://media.giphy.com/media/3otWpsA2vjEGbZsGOI/giphy.gif)
 
 ## What's coming
 Audio interraction using [aubio](https://aubio.org/)
